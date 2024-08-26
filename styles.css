@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(180deg, rgb(14, 165, 140), rgb(16, 86, 75));
+    width: 300px;
+    height: 280px; 
+    padding: 0px 16px;
+}
+
+h1, #message{
+    color: #ffffff;
+}
+
+.hidden{
+    visibility: collapse;
+    display: none;
+}
+
+#message{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#table-wrapper{
+    border: 2px solid white;
+    font-size: 1.2em;
+    text-align: left;
+    background-color: rgb(12, 84, 72);
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    height: 200px;
+    overflow-y: auto;
+}
+
+th {
+    top: 0px;
+    color: #ffffff;
+    background-color: #009879;
+    position: sticky;
+}
+
+#events-table{
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    
+}
+
+thead{
+    border-bottom: 2px solid rgb(133, 133, 133);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+
+tbody{
+    padding: 10px;
+}
+
+td, th{
+    padding: 12px 15px;
+}
+
+tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
